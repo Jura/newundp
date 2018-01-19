@@ -166,9 +166,9 @@ hr {
   max-width: $grid-width*.66;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 0 20px;
   @include breakpoint(large) {
-    padding: 30px;
+    padding: 0 30px;
   }
   .grid {
     padding-left: 0;
@@ -185,6 +185,9 @@ hr {
     @include breakpoint(medium) {
       flex-direction: row;
     }
+  }
+  p:last-of-type {
+    margin-bottom: 0;
   }
 }
 .cell {
@@ -215,43 +218,8 @@ hr {
 }
 
 section {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
-
-/*
-header {
-  nav {
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    @include breakpoint(large) {
-      top: 1rem;
-      right: 1rem;
-    }
-    ul {
-      list-style: none;
-      display: flex;
-      background: transparentize($black, .5);
-      border-radius: $global-radius;
-      li {
-        a {
-          color: $light-gray;
-          display: block;
-          padding: .5rem 1rem;
-          font-size: 75%;
-          &:hover {
-            color: $white;
-          }
-        }
-        border-right: 1px solid $dark-gray;
-        &:last-of-type {
-          border: 0;
-        }
-      }
-    }
-  }
-}
-*/
 
 // individual articles
 
@@ -266,6 +234,7 @@ header {
     background-image: url(assets/img/intro-wide.jpg);
     padding-bottom: 100px;
     height: 75vh;
+    margin-bottom: 120px;
   }
   @include breakpoint(xlarge) {
     background-image: url(assets/img/intro-wide-large.jpg);
@@ -298,6 +267,7 @@ header {
       text-align: center;
       h1 {
         color: $black;
+        margin-bottom: 0;
       }
       @include breakpoint(large) {
         bottom: 120px;
@@ -319,6 +289,7 @@ header {
   text-align: center;
   @include breakpoint(medium) {
     font-size: 100%;
+    margin-bottom: 120px;
   }
 }
 
@@ -349,12 +320,23 @@ header {
   }
 }
 
+#vision {
+  .grid {
+    .grid {
+      padding: 10px;
+    }
+  }
+}
+
 #interstitial2 {
   background: #971a38;
 }
 #interstitial3 {
   background: #3a7286;
   margin-bottom: 0;
+  .h1 {
+    margin-bottom: 0;
+  }
 }
 #interstitial4 {
   background: #e5243b;
@@ -364,14 +346,30 @@ header {
   background: url(assets/img/solutions-background-small.jpg) center right no-repeat;
   background-size: cover;
   margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .grid.small-vertical {
+    max-width: $grid-width;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
   @include breakpoint(medium) {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-image: url(assets/img/solutions-background.jpg);
+    .grid.small-vertical {
+      padding-top: 30px;
+      padding-bottom: 30px;      
+    }
   }
 }
 // ugly IE 10+ hack
 @media all and (min-width:40em), (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #solutions .small-vertical > .cell {
-    width: 395px;
+    width: 600px;
   }
 }
 #results .grid {
@@ -393,7 +391,7 @@ header {
   background: url(assets/img/join-us-narrow.jpg) no-repeat;
   background-size: cover;
   //padding-bottom: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   h1 {
     color: $white;
   }
@@ -407,6 +405,7 @@ header {
     background-image: url(assets/img/join-us-wide.jpg);
     //padding-bottom: 100px;
     height: 75vh;
+    margin-bottom: 120px;
   }
   @include breakpoint(xlarge) {
     background-image: url(assets/img/join-us-wide-large.jpg);
@@ -425,6 +424,12 @@ header {
 footer {
   background: scale-color($black, $lightness: 20%);
   color: $white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include breakpoint(medium) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   a {
     color: $white;
     &:hover {
@@ -437,18 +442,6 @@ footer {
       padding-bottom: 1rem;
     }
   }
-  /*> .grid {
-    flex-direction: column;
-    .cell {
-      justify-content: center;
-    }
-    @include breakpoint(large) {
-      flex-direction: row;
-      .cell {
-        justify-content: flex-start;
-      }
-    }
-  }*/
 }
 
 
