@@ -294,7 +294,8 @@ section {
 }
 
 .quote {
-  padding: 3rem 0;  
+  padding: 3rem 0;
+  font-style: italic;
   .h1 {
     color: $white;
   }
@@ -390,6 +391,7 @@ section {
   height: 100vh;
   background: url(assets/img/join-us-narrow.jpg) no-repeat;
   background-size: cover;
+  font-style: italic;
   //padding-bottom: 40px;
   margin-bottom: 70px;
   h1 {
