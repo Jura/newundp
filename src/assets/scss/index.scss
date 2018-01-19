@@ -368,7 +368,12 @@ header {
     background-image: url(assets/img/solutions-background.jpg);
   }
 }
-
+// ugly IE 10+ hack
+@media all and (min-width:40em), (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #solutions .small-vertical > .cell {
+    width: 395px;
+  }
+}
 #results .grid {
   position: relative;
   amp-img {
