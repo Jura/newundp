@@ -1,0 +1,66 @@
+{
+  "language": "fr",
+  "baseurl": "http://sdgs.undp.org/",
+  "title": "Statut du développement durable",
+  "labels": {
+    "title": "State of the SDGs",
+    "undp": "PNUD",
+    "description": "Partout dans le monde, les pays prennent des mesures pour atteindre les Objectifs de développement durable d'ici 2030. Ce n’est encore que le début, mais la dynamique s'accélère.",
+    "keywords": "Objectifs de développement durable, ODD, Objectifs mondiaux, Agenda 2030, développement humain, impact du développement",
+    "watchVideo": "regarder la vidéo",
+    "readStory": "lire l'histoire",
+    "videoId": "AKgrFDxM1UM"
+  },
+  "intro": "<p>Partout dans le monde, les pays prennent des mesures pour atteindre les  <a href=\"http://www.undp.org/fr/sustainable-development-goals\" target=\"_blank\" rel=\"noopener\">Objectifs de développement durable <i class=\"fa fa-external-link\"></i></a> d'ici 2030. Cet ensemble de 17 objectifs ouvre la voie à la transformation de notre monde d'ici 2030. Ce n’est encore que le début, mais la dynamique s'accélère. Voici comment les pays et les communautés mènent la charge pour accélérer les progrès.</p>",
+  "articles": [
+    {
+      "title": "Ouvrir le robinet",
+      "sdgs": ["4","5","6","11"],
+      "blurb": "À 72 ans, Binisera Lamichhane Magar vient d'ouvrir le robinet pour la première fois. « La plus grande partie de ma vie a été consacrée à chercher de l'eau », dit-elle le jour où elle s’est retrouvée avec ses voisins sur la place de la ville pour inaugurer le réservoir. C'est une première dans ce village reculé, où des générations de femmes ont dû abandonner l'école pour aller chercher de l'eau dans les terres montagneuses du Népal.",
+      "actions": {
+        "readStory": "https://stories.undp.org/le-nepal-ouvre-les-robinets"        
+      },      
+      "photo": "State-of-SDGs-Nepal-photo-2.jpg"
+    },
+    {
+      "title": "Pleins feux sur le Liban",
+      "sdgs": ["4","5","7","9"],
+      "blurb": "Dans le village rural de Bireh, l’ancienne génération est d’avis que la place d’une fille est à la maison. Mais les choses changent, et Alissar, 17 ans, a grandi avec d’autres idées. L’une des raisons pour cette transformation est l'électricité solaire installée dans le village. Grâce à la lumière des nouveaux réverbères, Alissar et ses amies n'ont plus peur de sortir une fois la nuit tombée.",
+      "actions": {
+        "watchVideo": "Sq0lnXwKPJw",
+        "readStory": "http://lightsoninlebanon.undp.org/fr/"        
+      },
+      "photo": "State-of-SDGs-Lebanon-photo.jpg"
+    },
+    {
+      "title": "Unis pour une ville propre",
+      "sdgs": ["5","11","13","17"],
+      "blurb": "Gregoria Cruz ne se contente pas de recycler les déchets, elle les ré-imagine. Membre d'une équipe de sept femmes qui collectent chaque jour environ 400 kg de déchets à Arequipa, la deuxième plus grande ville du Pérou, elle a pour mission de débarrasser les rues des déchets plastiques et autres, et d'empêcher que les opportunités de développement durable ne prennent aussi le chemin des poubelles.",
+      "actions": {
+         "readStory": "https://stories.undp.org/unis-pour-une-ville-propre"        
+      },
+      "photo": "State-of-SDGs-Peru-photo.jpg"
+    },
+    {
+      "title": "À la recherche de l’eau",
+      "sdgs": ["2","6","10","13"],
+      "blurb": "Une grave sécheresse, la seconde de cette décennie, a déplacé plus de 600 000 personnes en Somalie. Le prix de l'eau a augmenté de façon spectaculaire. Pour les agriculteurs qui luttent pour leur survie, un nouveau barrage est une véritable providence.",
+      "actions": {
+         "readStory": "https://stories.undp.org/a-la-recherche-de-leau"        
+      },
+      "photo": "State-of-SDGs-Somalia-photo.jpg"
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "title": "Objectifs de développement durable",
+        "link": "http://www.undp.org/fr/sustainable-development-goals"
+      }      
+    ],
+    "sm": {
+      "facebook": "https://www.facebook.com/pnudfr/",
+      "twitter": "https://twitter.com/pnudfr/"
+    }
+  }
+}

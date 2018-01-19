@@ -1,0 +1,65 @@
+{
+  "language": "es",
+  "baseurl": "http://sdgs.undp.org/",
+  "title": "Estado del desarrollo sostenible",
+  "labels": {
+    "title": "State of the SDGs",
+    "undp": "PNUD",
+    "description": "Países de todo el mundo están tomando medidas para alcanzar los Objetivos de Desarrollo Sostenible para 2030. Es solo el comienzo, pero el impulso ya está creciendo.",
+    "keywords": "Objetivos de Desarrollo Sostenible, ODS, Objetivos Mundiales, Agenda 2030, Desarrollo humano, impacto del desarrollo",
+    "watchVideo": "ver video",
+    "readStory": "leer historia",
+    "videoId": "nz47Wcox7wE"
+  },
+  "intro": "<p>Países de todo el mundo están tomando medidas para alcanzar los <a href=\"http://www.undp.org/es/sustainable-development-goals\" target=\"_blank\" rel=\"noopener\">Objetivos de Desarrollo Sostenible <i class=\"fa fa-external-link\"></i></a>. Este conjunto de 17 objetivos marca el rumbo para transformar nuestro mundo para 2030. Es solo el comienzo, pero el impulso ya está creciendo. Descubre cómo los países y comunidades lideran el desafío de acelerar el progreso.</p>",
+  "articles": [
+    {
+      "title": "Fuente de vida",
+      "sdgs": ["4","5","6","11"],
+      "blurb": "A los 72 años, Binisera Lamichhane Magar acaba de abrir el grifo de su primera tubería de agua. \"Pasé la mejor parte de mi vida luchando por obtener agua\", dice el día que ella y sus vecinos se reunieron en la plaza del pueblo para probar el tanque de agua. Es el primero en esta aldea remota, donde generaciones de mujeres han abandonado la escuela para buscar agua para las tierras de cultivo en las montañas de Nepal.",
+      "actions": {
+        "readStory": "https://stories.undp.org/la-llave-del-progreso"        
+      },      
+      "photo": "State-of-SDGs-Nepal-photo-2.jpg"
+    },
+    {
+      "title": "Luces en el Líbano",
+      "sdgs": ["4","5","7","9"],
+      "blurb": "En la pequeña comunidad rural de Bireh, las generaciones mayores se criaron con la idea de que es mejor que una niña se quede en casa. Pero las cosas están cambiando, y Alissar, de 17 años, está creciendo con más opciones. Una de las fuerzas impulsoras de esta transformación es la electricidad a base de energía solar que se ha instalado en la calle principal del pueblo. Gracias a la luz del nuevo sistema de alumbrado público, Alissar y sus amigas ya no tienen miedo de ir a la escuela o comprar alimentos.",
+      "actions": {
+        "readStory": "http://lightsoninlebanon.undp.org/es/"        
+      },
+      "photo": "State-of-SDGs-Lebanon-photo.jpg"
+    },
+    {
+      "title": "Unidos por una ciudad limpia",
+      "sdgs": ["5","11","13","17"],
+      "blurb": "Gregoria Cruz no solo recicla basura, sino que la reinventa. Ella es parte de un equipo de siete mujeres que todos los días recolectan alrededor de 400 kilos de desechos en Arequipa, la segunda ciudad más grande de Perú. Ellas tienen la misión de eliminar los plásticos y otros desperdicios de las calles y así demostrar que también en los residuos existen oportunidades para el desarrollo sostenible.",
+      "actions": {
+         "readStory": "https://stories.undp.org/unidas-por-una-ciudad-limpia"        
+      },
+      "photo": "State-of-SDGs-Peru-photo.jpg"
+    },
+    {
+      "title": "En busca del agua",
+      "sdgs": ["2","6","10","13"],
+      "blurb": "Una grave sequía, la segunda durante esta década, ha desplazado a más de 600.000 personas en Somalia. Para empeorar la situación, el precio del agua ha aumentado dramáticamente. Para los agricultores que luchan por ganarse la vida, una nueva represa está ayudando a salvarles la vida y ahorrarles dinero.",
+      "actions": {
+         "readStory": "https://stories.undp.org/en-busca-del-agua"        
+      },
+      "photo": "State-of-SDGs-Somalia-photo.jpg"
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "title": "Objetivos de Desarrollo Sostenible",
+        "link": "http://www.undp.org/es/sustainable-development-goals"
+      }      
+    ],
+    "sm": {
+      "facebook": "https://www.facebook.com/PNUD/",
+      "twitter": "https://twitter.com/pnud/"
+    }
+  }
+}

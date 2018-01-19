@@ -1,0 +1,36 @@
+{
+  "name": "undp-strategicplan2018",
+  "version": "1.0.0",
+  "description": "New UNDP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undp/newundp.git"
+  },
+  "author": "Jura Khrapunov <jura.khrapunov@undp.org>",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/undp/newundp/issues"
+  },
+  "homepage": "https://github.com/undp/newundp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-amphtml-validator": "^1.0.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "panini": "^1.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
